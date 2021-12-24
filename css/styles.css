@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #370665;
+}
+.MyPicture {
+  background-color: #FF865E;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 6.25rem;
+  color: #FC9918;
+  line-height: 2;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #F14A16;
+  font-weight: normal;
+}
+
+h3
+ {
+    font-family: "Montserrat", sans-serif;
+    color: #FC9918;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+
+a {
+  font-family: "Montserrat", sans-serif;
+  color: #35589A;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+    color: #370665;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  line-height: 2;
+}
+
+hr {
+  color: #FC9918;
+  border-width: 0 0 8px;
+  border-style: dotted;
+  width: 4%;
+  margin: 50px auto 30px;
+}
+.top-container {
+  position: relative;
+  background-color: #35589A;
+  padding-top: 100px;
+  height: 500px;
+  background-position: center;
+  background-image: url(../images/fuji-2.png);
+  background-repeat: no-repeat;
+}
+.helloP {
+  margin: 10px 20%;
+}
+
+.skills {
+  position: relative;
+  padding: 30px;
+}
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+}
+
+.middle-container {
+  padding: 30px;
+}
+.daruma {
+  display: block;
+  position: absolute;
+  height: 50px;
+  right: 100px;
+  transform: rotate(20deg);
+}
+.parasol {
+  display: block;
+  position: absolute;
+  height: 50px;
+  left: 100px;
+}
+.getInTouch {
+  width: 60%;
+  margin: 40px auto;
+}
+.contactBtn {
+  background-color: #35589A;
+  border: solid;
+  color: #FC9918;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 1rem;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contactBtn:hover {
+  opacity: 1;
+}
+
+.bottom-container {
+  padding: 30px;
+  background-color: #FC9918;
+}
+.translation,
+.developer {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.sake {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.top-sakura {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+  height: 100px;
+}
+.bottom-sakura {
+  position: absolute;
+  left: 200px;
+  bottom: 200px;
+  height: 100px;
+}
+
+.contact-sakura {
+  position: fixed;
+  right: 200px;
+  top: 50px;
+  height: 100px;
+  z-index: 20;
+}
+
+.contact-sakura:hover {
+  transform: rotate(30deg);
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #11999e);
+  background-image: -moz-linear-gradient(top, #3498db, #11999e);
+  background-image: -ms-linear-gradient(top, #3498db, #11999e);
+  background-image: -o-linear-gradient(top, #3498db, #11999e);
+  background-image: linear-gradient(to bottom, #3498db, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.copyright{
+    color: #370665;
+    font-size: 0.75rem;
+
+}
